@@ -102,8 +102,8 @@
 					<h3>Contact</h3>
 				</div>
 				<div class="contact-info">
-					<p><i class="fas fa-map-marker"></i>0926k 4th block building, king Avenue, New York City.</p>
-					<p><i class="fas fa-phone"></i>Phone : +121 098 8907 9987</p>
+					<p><i class="fas fa-map-marker"></i>Yaba, Lagos.</p>
+					<p><i class="fas fa-phone"></i>Phone : +2347033559633</p>
 					<p><i class="far fa-envelope"></i>Email : <a href="mailto:info@example.com">info@example.com</a></p>
 				</div>
 			</div>
