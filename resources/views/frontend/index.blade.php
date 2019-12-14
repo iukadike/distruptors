@@ -166,9 +166,9 @@
 				<div class="team_grids">
 				<div class="row">
 					<div class="col-md-3 team_grid text-center">
-						<img src="{{ asset('front_end/images/t1.jpg')}}" alt=" " class="img-fluid" />
-						<h3>Amanda Seylon</h3>
-						<p class="team_gridp">Designer</p>
+						<img src="{{ asset('front_end/images/tm1.png')}}" alt=" " class="img-fluid" />
+						<h3>Adebukola Salami</h3>
+						<p class="team_gridp">Team Lead (Data Analyst)</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<ul class="footer_list_icons team_icons">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -179,9 +179,9 @@
 						</ul>
 					</div>
 					<div class="col-md-3 team_grid text-center">
-						<img src="{{ asset('front_end/images/t2.jpg')}}" alt=" " class="img-fluid" />
-						<h3>Laura Mark</h3>
-						<p class="team_gridp">Designer</p>
+						<img src="{{ asset('front_end/images/tm2.png')}}" alt=" " class="img-fluid" />
+						<h3>Ifeanyichukwu Ukadike</h3>
+						<p class="team_gridp">Frontend Developer</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<ul class="footer_list_icons team_icons">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -192,9 +192,9 @@
 						</ul>
 					</div>
 					<div class="col-md-3 team_grid text-center">
-						<img src="{{ asset('front_end/images/t3.jpg')}}" alt=" " class="img-fluid" />
-						<h3>Lusiana James</h3>
-						<p class="team_gridp">Designer</p>
+						<img src="{{ asset('front_end/images/tm3.png')}}" alt=" " class="img-fluid" />
+						<h3>Ebenezer Oyenuga</h3>
+						<p class="team_gridp">Backend Developer</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<ul class="footer_list_icons team_icons">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -205,9 +205,9 @@
 						</ul>
 					</div>
 					<div class="col-md-3 team_grid text-center">
-						<img src="{{ asset('front_end/images/t4.jpg')}}" alt=" " class="img-fluid" />
-						<h3>John Mark</h3>
-						<p class="team_gridp">Designer</p>
+						<img src="{{ asset('front_end/images/tm4.jpg')}}" alt=" " class="img-fluid" />
+						<h3>Oluwaseyi Akintunde</h3>
+						<p class="team_gridp">Backend Developer</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<ul class="footer_list_icons team_icons">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -235,16 +235,16 @@
                     <a href="#">All</a>
                 </li>
                 <li class="cat-item-1">
-                    <a href="#" title="Category 1">Interior</a>
+                    <a href="#" title="Category 1">Apartment</a>
                 </li>
                 <li class="cat-item-2">
-                    <a href="#" title="Category 2">Villas</a>
+                    <a href="#" title="Category 2">Semi Detached</a>
                 </li>
                 <li class="cat-item-3">
-                    <a href="#" title="Category 3">Apartments</a>
+                    <a href="#" title="Category 3">Storey Buildings</a>
                 </li>
                 <li class="cat-item-4">
-                    <a href="#" title="Category 4">Properties</a>
+                    <a href="#" title="Category 4">Duplex</a>
                 </li>
             </ul>
             <ul class="portfolio-area clearfix">
@@ -450,79 +450,7 @@
 </div>
 </div>		
 <!-- //Counter -->
-<!-- Latest -->
-<div class="latest py-lg-5 py-md-4 py-3" id="news">
-	<div class="container py-sm-5 py-4">
-			<div class="title-heading text-center mb-sm-5 mb-4">
-				<h3>PROPERTIES</h3>
-				<h4>RECENT PROPERTIES</h4>
-			</div>
-		<div class="news_grids">
-		<div class="row">
-			<div class="col-md-4 mb-4 latest-news">
-				<div class="news_grid1">
-					<div class="news_grid_info">
-						<p class="date">On Jan 20th, 2018</p>
-						<h3>Office design</h3>
-						<p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
-						<a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 mb-4 latest-news">
-				<div class="news_grid2">
-					<div class="news_grid_info">
-						<p class="date">On Jan 20th, 2018</p>
-						<h3>apartments design</h3>
-						<p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
-						<a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 mb-4 latest-news">
-				<div class="news_grid3">
-					<div class="news_grid_info">
-						<p class="date">On Jan 20th, 2018</p>
-						<h3>Restaurant design</h3>
-						<p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
-						<a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 latest-news">
-				<div class="news_grid4">
-					<div class="news_grid_info">
-						<p class="date">On Jan 20th, 2018</p>
-						<h3>Office design</h3>
-						<p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
-						<a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 latest-news">
-				<div class="news_grid5">
-					<div class="news_grid_info">
-						<p class="date">On Jan 20th, 2018</p>
-						<h3>apartments design</h3>
-						<p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
-						<a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 latest-news">
-				<div class="news_grid6">
-					<div class="news_grid_info">
-						<p class="date">On Jan 20th, 2018</p>
-						<h3>Restaurant design</h3>
-						<p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
-						<a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-	</div>
-</div>
+
 <!-- //Latest -->
 <!-- contact -->
 		<div class="contact py-lg-5 py-md-4 py-3" id="contact">

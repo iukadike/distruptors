@@ -7,7 +7,7 @@
     <!DOCTYPE html>
     <html lang="zxx">
     <head>
-    <title>Roof Houses a Real Estate Category Bootstrap Responsive website Template | Home :: w3layouts</title>
+    <title>Affordable Homes</title>
     <!--meta tags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,13 +61,10 @@
             <a class="nav-link scroll" href="#team">TEAM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll" href="#gallery">GALLERY</a>
+            <a class="nav-link scroll" href="#gallery">PROPERTY TYPES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link scroll" href="#stats">STATS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scroll" href="#news">NEWS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link scroll" href="#contact">CONTACT</a>
@@ -105,8 +102,8 @@
 					<h3>Contact</h3>
 				</div>
 				<div class="contact-info">
-					<p><i class="fas fa-map-marker"></i>0926k 4th block building, king Avenue, New York City.</p>
-					<p><i class="fas fa-phone"></i>Phone : +121 098 8907 9987</p>
+					<p><i class="fas fa-map-marker"></i>Yaba, Lagos.</p>
+					<p><i class="fas fa-phone"></i>Phone : +2347033559633</p>
 					<p><i class="far fa-envelope"></i>Email : <a href="mailto:info@example.com">info@example.com</a></p>
 				</div>
 			</div>
@@ -126,7 +123,7 @@
 			</div>
 			<div class="col-md-4 footer-grid_section_1its_w3">
 				<div class="footer-title">
-					<h3>Latest news</h3>
+					<h3>Latest Properties</h3>
 				</div>
 				<div class="d-flex justify-content-around">
 						<a href="#" class="col-4 fot_tp p-2">
