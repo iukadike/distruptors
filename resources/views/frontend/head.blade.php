@@ -7,7 +7,7 @@
     <!DOCTYPE html>
     <html lang="zxx">
     <head>
-    <title>Roof Houses a Real Estate Category Bootstrap Responsive website Template | Home :: w3layouts</title>
+    <title>Affordable Homes</title>
     <!--meta tags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
