@@ -168,7 +168,7 @@
 					<div class="col-md-3 team_grid text-center">
 						<img src="{{ asset('front_end/images/tm1.png')}}" alt=" " class="img-fluid" />
 						<h3>Adebukola Salami</h3>
-						<p class="team_gridp">Designer</p>
+						<p class="team_gridp">Team Lead (Data Analyst)</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<ul class="footer_list_icons team_icons">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -181,7 +181,7 @@
 					<div class="col-md-3 team_grid text-center">
 						<img src="{{ asset('front_end/images/tm2.png')}}" alt=" " class="img-fluid" />
 						<h3>Ifeanyichukwu Ukadike</h3>
-						<p class="team_gridp">Designer</p>
+						<p class="team_gridp">Frontend Developer</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<ul class="footer_list_icons team_icons">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -194,7 +194,7 @@
 					<div class="col-md-3 team_grid text-center">
 						<img src="{{ asset('front_end/images/tm3.png')}}" alt=" " class="img-fluid" />
 						<h3>Ebenezer Oyenuga</h3>
-						<p class="team_gridp">Designer</p>
+						<p class="team_gridp">Backend Developer</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<ul class="footer_list_icons team_icons">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -206,8 +206,8 @@
 					</div>
 					<div class="col-md-3 team_grid text-center">
 						<img src="{{ asset('front_end/images/tm4.jpg')}}" alt=" " class="img-fluid" />
-						<h3>Oluwaseyi Akinttunde</h3>
-						<p class="team_gridp">Designer</p>
+						<h3>Oluwaseyi Akintunde</h3>
+						<p class="team_gridp">Backend Developer</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<ul class="footer_list_icons team_icons">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
