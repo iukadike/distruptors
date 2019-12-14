@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Property;
+use App\PropertyType;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PropertyController extends Controller
 {
@@ -25,6 +27,8 @@ class PropertyController extends Controller
     public function create()
     {
         //
+        $property_types = PropertyType::all();
+        return view('property.create', compact('property_types'));
     }
 
     /**
@@ -36,6 +40,21 @@ class PropertyController extends Controller
     public function store(Request $request)
     {
         //
+        request()->validate([
+            'property_type_id'=>['required'],
+            'address'=>['required']
+        ]);
+
+        $data=[
+            'property_type'=>$request->property_type_id,
+            'address'=>$request->address,
+            'owner'=>auth()->user()->id
+        ];
+        $property = Property::create($data);
+
+
+        $request->session()->flash('success', 'Property added Successfully');
+        return back();
     }
 
     /**

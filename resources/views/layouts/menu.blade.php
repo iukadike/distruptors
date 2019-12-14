@@ -1,6 +1,14 @@
 @extends('layouts.portal')
 @section('menu')
+                    @if (Auth::user()->role == 2)
+                    <li class="header">Properties</li>
 
+                                    <li>
+                                        <a href="{{ route('property.create') }}">
+                                            <span>Upload Property</span>
+                                        </a>
+                                    </li>
+                    @endif
                     <li class="header">My Account</li>
                         <li>
                             <a class="dropdown-item" href="{{ route('logout') }}"

@@ -25,4 +25,8 @@ class HomeController extends Controller
     {
         return view('frontend.index');
     }
+    public function dashboard()
+    {
+        return view('home');
+    }
 }
