@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('Title_Header', 'SPEEM')</title>
+    <title>@yield('Title_Header', 'Affordable Homes')</title>
 
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -67,7 +67,7 @@
                 <div class="navbar-header">
                     <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
                     <a href="javascript:void(0);" class="bars"></a>
-                    <a class="navbar-brand" href="index.html">Strategic Planning Evaluation and Monitoring System</a>
+                    <a class="navbar-brand" href="index.html">Affordable Homes</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -78,22 +78,21 @@
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
                             <i class="material-icons">notifications</i>
-                            @if ($count_approvals > 0)
 
-                                <span class="label-count">{{ $count_approvals }}</span>
-                            @endif
+                                <span class="label-count">2</span>
+
                         </a>
                         <ul class="dropdown-menu">
                             <li class="header">NOTIFICATIONS</li>
                             <li class="body">
                                 <ul class="menu">
                                     <li>
-                                        <a href="{{ route('objective_awaiting_approvals') }}">
+                                        <a href="">
                                             <div class="icon-circle bg-blue">
                                                 <i class="material-icons">mode_edit</i>
                                             </div>
                                             <div class="menu-info">
-                                                <h4><b>{{ $count_approvals }}</b> objectives awaiting approval</h4>
+                                                <h4></h4>
                                             </div>
                                         </a>
                                     </li>
@@ -179,7 +178,7 @@
                         <ul class="list">
                             <li class="header">MAIN NAVIGATION</li>
                             <li class="active">
-                                <a href="{{ route('dashboard') }}">
+                                <a href="">
                                     <i class="material-icons">home</i>
                                     <span>Dashboard</span>
                                 </a>
