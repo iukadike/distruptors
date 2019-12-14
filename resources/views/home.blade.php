@@ -1,23 +1,19 @@
-@extends('layouts.app')
-
+@extends('layouts.menu')
+@section('title', 'Dashboard')
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
+<!-- Widgets -->
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+<div class="row clearfix">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box bg-pink">
+                <div class="icon">
+                    <i class="material-icons">playlist_add_check</i>
+                </div>
+                <div class="content">
+                    <div class="text"><a href="" style="color:white">Home</a></div>
+                    <div class="number count-to" data-from="0" data-to="" data-speed="1" data-fresh-interval="1"><a href=""<a href="" style="color:white"></div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 @endsection
