@@ -61,13 +61,10 @@
             <a class="nav-link scroll" href="#team">TEAM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll" href="#gallery">GALLERY</a>
+            <a class="nav-link scroll" href="#gallery">PROPERTY TYPES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link scroll" href="#stats">STATS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scroll" href="#news">NEWS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link scroll" href="#contact">CONTACT</a>
@@ -126,7 +123,7 @@
 			</div>
 			<div class="col-md-4 footer-grid_section_1its_w3">
 				<div class="footer-title">
-					<h3>Latest news</h3>
+					<h3>Latest Properties</h3>
 				</div>
 				<div class="d-flex justify-content-around">
 						<a href="#" class="col-4 fot_tp p-2">
