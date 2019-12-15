@@ -19,3 +19,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
 
 Route::resource('property', 'PropertyController');
+Route::resource('user', 'UserController');
