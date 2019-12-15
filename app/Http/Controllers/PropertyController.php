@@ -17,6 +17,9 @@ class PropertyController extends Controller
     public function index()
     {
         //
+        $properties = auth()->user()->properties;
+
+        return view('property.index', compact('properties'));
     }
 
     /**
@@ -27,6 +30,7 @@ class PropertyController extends Controller
     public function create()
     {
         //
+        $this->middleware('landlord');
         $property_types = PropertyType::all();
         return view('property.create', compact('property_types'));
     }
@@ -40,6 +44,7 @@ class PropertyController extends Controller
     public function store(Request $request)
     {
         //
+        $this->middleware('landlord');
         request()->validate([
             'property_type_id'=>['required'],
             'address'=>['required']

@@ -43,8 +43,12 @@
 
                                             <tr>
                                                 <td>{{ $count }}</td>
-                                                <td>{{ $property->property_type->property_type }}</td>
+                                                <td>{{ $property->type->property_type }}</td>
                                                 <td>{{ $property->address }}</td>
+                                                @if ($property->available == 0)
+                                                    <td>Status Pending</td>
+                                                @endif
+
                                                 <td><a href="/property/{{$property->id}}/edit"> <i class='material-icons'>edit</i></a></td>
                                                 <td><form method="POST" action="/property/{{ $property->id }}">@method('DELETE') @csrf <button type="submit" class="btn btn-primary waves-effect"> <i class='material-icons'>delete</i></button></form></a></td>
 

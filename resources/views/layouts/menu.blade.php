@@ -8,6 +8,11 @@
                                             <span>Upload Property</span>
                                         </a>
                                     </li>
+                                    <li>
+                                        <a href="{{ route('property.index') }}">
+                                            <span>My Properties</span>
+                                        </a>
+                                    </li>
                     @endif
                     <li class="header">My Account</li>
                         <li>
